@@ -1,0 +1,91 @@
+.services-container {
+    height: inherit;
+    width: inherit;
+    /* background-color: grey; */
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    position: relative;
+    z-index: 2;
+}
+
+.service-stars{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url(..//../../public/stars.png);
+    z-index: 1;
+}
+
+.services-heading {
+    height: 15%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding-top: 25px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 3; */
+}
+
+.services-heading h1 {
+    font-size: 60px;
+    border-bottom: 1px solid white;
+    position: absolute;
+    z-index: 3;
+
+}
+
+.comment-section {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+
+    /* background-color: aquamarine; */
+}
+
+.left-article {
+    height: 100%;
+    width: 50%;
+    /* border-left: 1px solid white; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.right-article {
+    height: 100%;
+    width: 50%;
+    border-left: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.contribution {
+    height: 55%;
+    width: 50%;
+    text-align: center;
+    padding-top: 2.3%;
+    background-color: beige;
+    border-radius: 30px;
+    color: black;
+}
+
+.midLines {
+    height: 2px;
+    width: 200px;
+    background-color: white;
+}
+
+.midLinesLeft {
+    height: 2px;
+    width: 200px;
+    background-color: white;
+
+}
